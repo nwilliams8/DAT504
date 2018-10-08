@@ -1,0 +1,11 @@
+.signInForm {
+  background-color: red;
+  padding: 2em 2em;
+  text-align: center;
+}
+.LoginForm {
+  margin:1em 0 2.5em;
+}
+.container{
+  display: flex;
+}
