@@ -1,0 +1,78 @@
+body{
+  background-color: #E0FFFF;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.login-form{
+  display:flex;
+  flex-direction: column;
+  margin-left: 2vh
+  justify-content:center;
+}
+p{
+  font-family: 'Niramit', sans-serif;
+}
+h3,h1{
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  border-bottom: 2px solid #78788c;
+  text-align: center;
+}
+p:before {
+  content: attr(type);
+  display: block;
+}
+
+.Reg-form{
+  height: auto;
+  display:flex;
+  flex-direction: column;
+  margin-left: 2vh
+}
+form{
+  width: 400px;
+  height: 440px;
+  background: white;
+  box-shadow: 0 0 40px -10px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 20px 30px;
+}
+input{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  border-bottom: 2px solid #bebed2;
+}
+
+input:focus {
+  border-bottom: 2px solid #78788c;
+}
+.button {
+  width: auto;
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  border: 2px solid;
+  border-color: #78788c;
+  margin-right: 5%;
+}
+.button:hover {
+  background: #78788c;
+  color: #fff;
+}
+.Reg{
+  height: auto;
+}
+.Log{
+  height: auto;
+}
